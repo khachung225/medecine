@@ -4,7 +4,7 @@ using DatabaseDAL.Entities;
 
 namespace DatabaseDAL.DAO
 {
-    public class PresentationFactory
+    public class PresentationDao
     {
 
         #region data Members
@@ -15,7 +15,7 @@ namespace DatabaseDAL.DAO
 
         #region Constructor
 
-        public PresentationFactory()
+        public PresentationDao()
         {
             _dataObject = new PresentationSql();
         }

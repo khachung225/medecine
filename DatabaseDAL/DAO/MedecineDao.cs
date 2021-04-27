@@ -4,7 +4,7 @@ using DatabaseDAL.Entities;
 
 namespace DatabaseDAL.DAO
 {
-    public class MedecineFactory
+    public class MedecineDao
     {
 
         #region data Members
@@ -15,7 +15,7 @@ namespace DatabaseDAL.DAO
 
         #region Constructor
 
-        public MedecineFactory()
+        public MedecineDao()
         {
             _dataObject = new MedecineSql();
         }

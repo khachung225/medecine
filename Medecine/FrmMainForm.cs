@@ -1,16 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using medecine.winForm;
+
 
 namespace medecine
 {
-    public partial class FrmMain : Form
+    public partial class FrmMain : System.Windows.Forms.Form
     {
         public FrmMain()
         {
@@ -30,6 +25,12 @@ namespace medecine
         private void FrmMain_FormClosing(object sender, FormClosingEventArgs e)
         {
             timer1.Stop();
+        }
+
+        private void unitsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var units = new frmListUnits();
+            units.Show();
         }
     }
 }

@@ -43,7 +43,7 @@ namespace DatabaseDAL.DataLayer
 			try
 			{
                 
-				sqlCommand.Parameters.Add(new SqlParameter("@UnitId", SqlDbType.BigInt, 8, ParameterDirection.Input, false, 0, 0, "", DataRowVersion.Proposed, businessObject.UnitId));
+				sqlCommand.Parameters.Add(new SqlParameter("@UnitId", SqlDbType.BigInt, 8, ParameterDirection.Output, false, 0, 0, "", DataRowVersion.Proposed, businessObject.UnitId));
 				sqlCommand.Parameters.Add(new SqlParameter("@UnitShortName", SqlDbType.NVarChar, 100, ParameterDirection.Input, false, 0, 0, "", DataRowVersion.Proposed, businessObject.UnitShortName));
 				sqlCommand.Parameters.Add(new SqlParameter("@UnitName", SqlDbType.NVarChar, 500, ParameterDirection.Input, false, 0, 0, "", DataRowVersion.Proposed, businessObject.UnitName));
 				sqlCommand.Parameters.Add(new SqlParameter("@ActorChanged", SqlDbType.BigInt, 8, ParameterDirection.Input, false, 0, 0, "", DataRowVersion.Proposed, businessObject.ActorChanged));
@@ -53,7 +53,8 @@ namespace DatabaseDAL.DataLayer
 				MainConnection.Open();
 				
 				sqlCommand.ExecuteNonQuery();
-                
+                businessObject.UnitId = (long)sqlCommand.Parameters["@UnitId"].Value;
+
 				return true;
 			}
 			catch(Exception ex)

@@ -4,7 +4,7 @@ using DatabaseDAL.Entities;
 
 namespace DatabaseDAL.DAO
 {
-    public class UnitFactory
+    public class UnitDao
     {
 
         #region data Members
@@ -15,7 +15,7 @@ namespace DatabaseDAL.DAO
 
         #region Constructor
 
-        public UnitFactory()
+        public UnitDao()
         {
             _dataObject = new UnitSql();
         }

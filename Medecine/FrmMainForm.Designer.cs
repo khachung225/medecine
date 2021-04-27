@@ -45,6 +45,7 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.hệThốngToolStripMenuItem,
             this.quảnLýToolStripMenuItem,
@@ -72,7 +73,7 @@
             // nhậpThuốcToolStripMenuItem
             // 
             this.nhậpThuốcToolStripMenuItem.Name = "nhậpThuốcToolStripMenuItem";
-            this.nhậpThuốcToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.nhậpThuốcToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
             this.nhậpThuốcToolStripMenuItem.Text = "Nhập Thuốc";
             // 
             // staticDataToolStripMenuItem
@@ -86,8 +87,9 @@
             // unitsToolStripMenuItem
             // 
             this.unitsToolStripMenuItem.Name = "unitsToolStripMenuItem";
-            this.unitsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.unitsToolStripMenuItem.Size = new System.Drawing.Size(101, 22);
             this.unitsToolStripMenuItem.Text = "Units";
+            this.unitsToolStripMenuItem.Click += new System.EventHandler(this.unitsToolStripMenuItem_Click);
             // 
             // statusStrip1
             // 
@@ -150,6 +152,7 @@
         private System.Windows.Forms.ToolStripStatusLabel lblStatusTime;
         private System.Windows.Forms.ToolStripProgressBar toolStripProgressBar1;
         private System.Windows.Forms.Timer timer1;
+        private ComponentFactory.Krypton.Docking.KryptonDockingManager kryptonDockingManager1;
     }
 }
 

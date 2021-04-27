@@ -1,0 +1,7 @@
+E:\PROJECT\QLThuoc\QLThuoc\obj\Debug\QLThuoc.csprojResolveAssemblyReference.cache
+E:\PROJECT\QLThuoc\QLThuoc\bin\QLThuoc.dll
+E:\PROJECT\QLThuoc\QLThuoc\bin\QLThuoc.pdb
+E:\PROJECT\QLThuoc\QLThuoc\bin\MySql.Data.dll
+E:\PROJECT\QLThuoc\QLThuoc\bin\MySql.Data.xml
+E:\PROJECT\QLThuoc\QLThuoc\obj\Debug\QLThuoc.dll
+E:\PROJECT\QLThuoc\QLThuoc\obj\Debug\QLThuoc.pdb

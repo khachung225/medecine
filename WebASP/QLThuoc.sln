@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QLThuoc", "QLThuoc\QLThuoc.csproj", "{8C571E93-1265-4B07-901A-522B7C0AC7FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C571E93-1265-4B07-901A-522B7C0AC7FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C571E93-1265-4B07-901A-522B7C0AC7FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C571E93-1265-4B07-901A-522B7C0AC7FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C571E93-1265-4B07-901A-522B7C0AC7FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
